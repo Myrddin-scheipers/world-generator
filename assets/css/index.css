@@ -1,0 +1,14 @@
+:root {
+    --button-background: #000;
+    --button-text: #c8c8c8;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+button {
+    color: var(--button-text);
+    background-color: var(--button-background);
+    border-radius: 8px;
+}
